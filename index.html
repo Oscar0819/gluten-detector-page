@@ -3,17 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>글루텐 탐지기</title> <!-- 예: OOO - 당신의 스마트한 일정 관리 -->
-    <!-- (선택) CSS 스타일: 아래 4단계에서 추가 -->
-    <link rel="stylesheet" href="style.css"> <!-- 외부 CSS 파일 연결 방식 -->
-    <!-- 또는 <style> 여기에 직접 CSS 코드 작성 </style> -->
+    <title>글루텐 탐지기</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS로 여백 조절 예시 (style.css 파일에 넣거나 <style> 태그 안에 작성) */
+        body {
+            background-color: #ededed;
+            
+            font-family: sans-serif; /* 가독성을 위한 기본 폰트 설정 */
+            line-height: 1.6; /* 줄 간격 조절 */
+
+            margin-top: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 5%;
+        }
+
+        .app-description {
+            font-size: 32px; /* 원하는 크기로 조절 (예: 1.1rem, 18px, 110% 등) */
+            font-weight: bold;  /* 텍스트를 굵게 만듭니다 */
+            /* 다른 font-weight 값: normal (기본), 600, 700 (bold와 동일), 400 (normal과 동일) 등 */
+            line-height: 1.6; /* 줄 간격 조절 (선택 사항) */
+        }
+    </style>
 </head>
 <body>
-    <!-- (선택) 앱 아이콘 -->
-    <img src="images/ic_launcher.png" alt="글루텐 탐지기 아이콘" style="width: 100px; height: auto; margin-bottom: 15px;">
-
-    <h1>글루텐 탐지기</h1>
-    <!-- <p style="color: #555; margin-bottom: 30px;">소개 문구</p> -->
+    <!-- <img src="images/ic_launcher.png" alt="글루텐 탐지기 아이콘" style="width: 100px; height: auto; margin-bottom: 15px;"> -->
+    <div style="text-align: center;">
+        <img src="images/ic_launcher.png" alt="글루텐 탐지기 아이콘" style="width: 168px; height: auto;">
+    </div>
+    
+    <div class="app-description" style="text-align: center;">
+        간편하게 식품에 글루텐이 <br>
+        포함되어 있는지 확인하세요.
+    </div>
+    
+    <div style="text-align: center;">
+        <img src="images/image3.png" alt="앱 설명 이미지" style="max-width: 100%; height: auto;" />
+    </div>
 
     <div class="store-buttons" style="margin-bottom: 40px;">
         <!-- 구글 플레이 스토어 버튼 -->
@@ -31,6 +58,8 @@
 
     <footer>
         <a href="privacy.html" style="text-decoration: none; color: #333;">개인정보처리방침</a>
+        | 
+        <a href="privacy.html" style="text-decoration: none; color: #333;">이용약관</a>
         <p style="font-size: 0.8em; color: #777; margin-top: 10px;">© 2025 Oscar Park</p> <!-- 예: © 2023 길동 홍 -->
     </footer>
 
